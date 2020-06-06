@@ -76,7 +76,7 @@ body {
 .second-hand {
   width: 50%;
 }
-.lines {
+.line {
   position: absolute;
   z-index: -2;
   width: 2px;
