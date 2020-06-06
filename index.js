@@ -4,7 +4,6 @@ const secondHand = document.querySelector('.second-hand');
 
 (function createLines() {
   const clockFace = document.querySelector('.clock-face');
-  const lines = document.getElementsByClassName('.lines');
   for (let i = 0; i < 60; i++) {
     const line = document.createElement('div');
     line.classList.add('lines')
