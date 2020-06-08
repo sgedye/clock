@@ -86,3 +86,7 @@ body {
   margin: 4px -1px;
   transform-origin: 50% 150px;
 }
+.line:nth-of-type(5n+1) {
+  height: 20px;
+  width: 3px;
+}
